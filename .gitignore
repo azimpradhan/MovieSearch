@@ -1,0 +1,45 @@
+# Xcode ------------------
+
+## Secrets
+**/Secrets.xcconfig
+
+## User settings
+xcuserdata/
+
+## OSX files
+.DS_Store
+
+## App packaging
+*.ipa
+*.dSYM.zip
+*.dSYM
+upload_dsym_results
+
+# Swift Package Manager
+# Packages/
+# Package.pins
+Package.resolved
+
+# Xcode automatically generates this directory with a .xcworkspacedata file and xcuserdata
+# hence it is not needed unless you have added a package configuration file to your project
+.swiftpm
+
+ApolloCLI
+
+.build/
+# Xcode ------------------
+Pods/
+ci/builds
+vendor
+Brewfile.lock.json
+spm
+.env
+*.p12
+*.cer
+xcframeworks
+
+# JetBrains
+.idea/
+
+# asdf
+.tool-versions
