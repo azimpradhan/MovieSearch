@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		FCA064DF2D9FA54E00DBF1E6 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = FCA064DE2D9FA54E00DBF1E6 /* SDWebImageSwiftUI */; };
+		FCA071552DA1B2E2002F2EC2 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = FCA071542DA1B2DB002F2EC2 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,6 +24,7 @@
 /* Begin PBXFileReference section */
 		FC53CB0F2D9F21B7009ED734 /* MovieSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC53CB1F2D9F21B9009ED734 /* MovieSearchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MovieSearchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCA071542DA1B2DB002F2EC2 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -73,6 +75,7 @@
 		FC53CB062D9F21B7009ED734 = {
 			isa = PBXGroup;
 			children = (
+				FCA071542DA1B2DB002F2EC2 /* README.md */,
 				FC53CB112D9F21B7009ED734 /* MovieSearch */,
 				FC53CB222D9F21B9009ED734 /* MovieSearchTests */,
 				FC53CB102D9F21B7009ED734 /* Products */,
@@ -184,6 +187,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCA071552DA1B2E2002F2EC2 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
