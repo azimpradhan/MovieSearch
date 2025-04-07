@@ -72,8 +72,8 @@ struct MovieSearch: View {
             }
             .navigationTitle("Movie Search")
             .navigationDestination(for: Movie.self) { movie in
-                            MovieDetail(movie: movie)
-                        }
+                MovieDetail(movie: movie)
+            }
         }
     }
 }
